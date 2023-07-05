@@ -9,14 +9,14 @@ greet_programmer()
 
 
 def greet(name):
-    print(f"Hello, ${name}!")
+    print(f"Hello, {name}!")
 
 
 greet("Naureen")
 
 
 def greet_with_default(name="programmer"):
-    print(f"Hello, ${name}!")
+    print(f"Hello, {name}!")
 
 
 greet_with_default("Sunny")
